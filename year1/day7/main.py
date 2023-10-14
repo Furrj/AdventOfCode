@@ -4,7 +4,7 @@ from node import Node
 
 def main() -> None:
     nodes: list[Node] = []
-    lines: list[str] = p.read_file("test.txt")
+    lines: list[str] = p.read_file("inputs.txt")
 
     for line in lines:
         nodes.append(Node(line))

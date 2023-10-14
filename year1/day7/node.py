@@ -33,6 +33,7 @@ class Node:
         self.instruction = p.get_instruction(line)
         self.instruction_type = p.get_instruction_type(self.instruction)
         self.operation = p.get_operation(self.instruction)
+        self.parents = p.get_parents(self.instruction, self.instruction_type)
 
     def __str__(self):
         string: str = "{\n"
@@ -40,5 +41,6 @@ class Node:
         string += f"  Instruction: {self.instruction}\n"
         string += f"  InstructionType: {self.instruction_type.name}\n"
         string += f"  Operation: {self.operation.name}\n"
+        string += f"  Parents: {self.parents}\n"
         string += "}\n"
         return string

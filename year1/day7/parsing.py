@@ -56,3 +56,24 @@ def get_operation(instruction: str) -> Operations:
         if o.name in instruction:
             return o
     return Operations.NONE
+
+
+def get_parents(instruction: str, instruction_type: InstructionTypes) -> list[str]:
+    parents: list[str] = []
+    splitInstructions: list = instruction.split(" ")
+
+    if instruction_type == InstructionTypes.DIRECT_NUMBER:
+        parents.append("none")
+    elif instruction_type == InstructionTypes.DIRECT_PARENT:
+        parents.append(splitInstructions[0])
+    elif instruction_type == InstructionTypes.L_PARENT:
+        parents.append(splitInstructions[0])
+    elif instruction_type == InstructionTypes.R_PARENT:
+        parents.append(splitInstructions[2])
+    elif instruction_type == InstructionTypes.UNARY:
+        parents.append(splitInstructions[1])
+    elif instruction_type == InstructionTypes.BINARY:
+        parents.append(splitInstructions[0])
+        parents.append(splitInstructions[2])
+
+    return parents
