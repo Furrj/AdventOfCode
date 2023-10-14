@@ -29,6 +29,9 @@ class Node:
     parents: list[str]
 
     def __init__(self, line: str):
+        if line == "null":
+            return
+
         self.name = p.get_name(line)
         self.instruction = p.get_instruction(line)
         self.instruction_type = p.get_instruction_type(self.instruction)
@@ -44,3 +47,10 @@ class Node:
         string += f"  Parents: {self.parents}\n"
         string += "}\n"
         return string
+
+
+def find_node_by_name(searchName: str, nodes: list[Node]) -> tuple[Node, bool]:
+    for n in nodes:
+        if n.name == searchName:
+            return n, True
+    return Node("null"), False
