@@ -13,7 +13,7 @@ type Coord struct {
 }
 
 type Action struct {
-	Action string
+	Action int
 	Start  Coord
 	End    Coord
 }
@@ -22,7 +22,7 @@ func ParseAction(line string) Action {
 	action := Action{}
 
 	if strings.Contains(line, "turn on") {
-		action.Action = "on"
+		action.Action = 1
 
 		trimmedString := line[8:]
 		start := ""
@@ -64,7 +64,7 @@ func ParseAction(line string) Action {
 		}
 		action.End.Y = y
 	} else if strings.Contains(line, "turn off") {
-		action.Action = "off"
+		action.Action = 2
 
 		trimmedString := line[9:]
 		start := ""
@@ -106,7 +106,7 @@ func ParseAction(line string) Action {
 		}
 		action.End.Y = y
 	} else {
-		action.Action = "toggle"
+		action.Action = 3
 
 		trimmedString := line[7:]
 		start := ""

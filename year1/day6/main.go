@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	// lights := [1000000]bool{}
+	lights := [1000][1000]light{}
 	actions := []Action{}
 
 	// Read input
@@ -22,7 +22,44 @@ func main() {
 	}
 
 	for _, a := range actions {
-		fmt.Println(a)
+		if a.Action == 1 {
+			for i := a.Start.X; i <= a.End.X; i++ {
+				for j := a.Start.Y; j <= a.End.Y; j++ {
+					lights[i][j].Value += 1
+				}
+			}
+		} else if a.Action == 2 {
+			for i := a.Start.X; i <= a.End.X; i++ {
+				for j := a.Start.Y; j <= a.End.Y; j++ {
+					lights[i][j].decrease()
+				}
+			}
+		} else {
+			for i := a.Start.X; i <= a.End.X; i++ {
+				for j := a.Start.Y; j <= a.End.Y; j++ {
+					lights[i][j].Value += 2
+				}
+			}
+		}
+	}
+
+	count := 0
+	for _, i := range lights {
+		for _, j := range i {
+			count += j.Value
+		}
+	}
+
+	fmt.Printf("Answer: %d\n", count)
+}
+
+type light struct {
+	Value int
+}
+
+func (l *light) decrease() {
+	if l.Value > 0 {
+		l.Value--
 	}
 }
 
