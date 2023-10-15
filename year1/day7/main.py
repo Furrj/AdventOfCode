@@ -11,8 +11,16 @@ def main() -> None:
     for line in lines:
         nodes.append(Node(line))
 
-    for node in nodes:
-        print(node)
+    t.first_pass(nodes)
+    t.valueCheck(nodes, values)
+
+    completed: bool = False
+    while not completed:
+        t.check_and_execute(nodes, values)
+        t.valueCheck(nodes, values)
+        completed = t.check_for_completion(nodes, values)
+
+    print(values["a"])
 
 
 main()

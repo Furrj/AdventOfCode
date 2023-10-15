@@ -25,3 +25,10 @@ def check_and_execute(nodes: list[Node], values: dict[str, int]) -> None:
                 parentsHaveValues = False
         if parentsHaveValues:
             exec_instructions(node, values)
+
+
+def check_for_completion(nodes: list[Node], values: dict[str, int]) -> bool:
+    for node in nodes:
+        if node.name not in values.keys():
+            return False
+    return True
