@@ -64,3 +64,11 @@ def getMin(calculated: list[tuple[str, int]]) -> int:
         if c[1] < min:
             min = c[1]
     return min
+
+
+def getMax(calculated: list[tuple[str, int]]) -> int:
+    min: int = calculated[0][1]
+    for c in calculated:
+        if c[1] > min:
+            min = c[1]
+    return min

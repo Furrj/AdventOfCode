@@ -11,7 +11,7 @@ def main() -> None:
     valid_routes = c.validate_routes(route_perms, routes_and_distances)
 
     calculated_routes = c.calculate_distances(valid_routes, routes_and_distances)
-    print(c.getMin(calculated_routes))
+    print(c.getMax(calculated_routes))
 
 
 main()
