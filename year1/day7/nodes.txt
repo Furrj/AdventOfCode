@@ -1,0 +1,2712 @@
+{
+  Name: bo
+  Instruction: bn RSHIFT 2
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['bn']
+}
+
+{
+  Name: ly
+  Instruction: lf RSHIFT 1
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['lf']
+}
+
+{
+  Name: fq
+  Instruction: fo RSHIFT 3
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['fo']
+}
+
+{
+  Name: cq
+  Instruction: cj OR cp
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['cj', 'cp']
+}
+
+{
+  Name: ga
+  Instruction: fo OR fz
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['fo', 'fz']
+}
+
+{
+  Name: u
+  Instruction: t OR s
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['t', 's']
+}
+
+{
+  Name: a
+  Instruction: lx
+  InstructionType: DIRECT_PARENT
+  Operation: NONE
+  Parents: ['lx']
+}
+
+{
+  Name: ay
+  Instruction: NOT ax
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['ax']
+}
+
+{
+  Name: hf
+  Instruction: he RSHIFT 2
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['he']
+}
+
+{
+  Name: lr
+  Instruction: lf OR lq
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['lf', 'lq']
+}
+
+{
+  Name: lu
+  Instruction: lr AND lt
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['lr', 'lt']
+}
+
+{
+  Name: ek
+  Instruction: dy OR ej
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['dy', 'ej']
+}
+
+{
+  Name: cy
+  Instruction: 1 AND cx
+  InstructionType: R_PARENT
+  Operation: AND
+  Parents: ['cx']
+}
+
+{
+  Name: hv
+  Instruction: hb LSHIFT 1
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['hb']
+}
+
+{
+  Name: bi
+  Instruction: 1 AND bh
+  InstructionType: R_PARENT
+  Operation: AND
+  Parents: ['bh']
+}
+
+{
+  Name: ik
+  Instruction: ih AND ij
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['ih', 'ij']
+}
+
+{
+  Name: t
+  Instruction: c LSHIFT 1
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['c']
+}
+
+{
+  Name: ed
+  Instruction: ea AND eb
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['ea', 'eb']
+}
+
+{
+  Name: ko
+  Instruction: km OR kn
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['km', 'kn']
+}
+
+{
+  Name: bx
+  Instruction: NOT bw
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['bw']
+}
+
+{
+  Name: cu
+  Instruction: ci OR ct
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['ci', 'ct']
+}
+
+{
+  Name: q
+  Instruction: NOT p
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['p']
+}
+
+{
+  Name: lx
+  Instruction: lw OR lv
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['lw', 'lv']
+}
+
+{
+  Name: lp
+  Instruction: NOT lo
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['lo']
+}
+
+{
+  Name: fw
+  Instruction: fp OR fv
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['fp', 'fv']
+}
+
+{
+  Name: r
+  Instruction: o AND q
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['o', 'q']
+}
+
+{
+  Name: dk
+  Instruction: dh AND dj
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['dh', 'dj']
+}
+
+{
+  Name: bj
+  Instruction: ap LSHIFT 1
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['ap']
+}
+
+{
+  Name: ce
+  Instruction: bk LSHIFT 1
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['bk']
+}
+
+{
+  Name: ij
+  Instruction: NOT ii
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['ii']
+}
+
+{
+  Name: gj
+  Instruction: gh OR gi
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['gh', 'gi']
+}
+
+{
+  Name: ld
+  Instruction: kk RSHIFT 1
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['kk']
+}
+
+{
+  Name: lw
+  Instruction: lc LSHIFT 1
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['lc']
+}
+
+{
+  Name: lc
+  Instruction: lb OR la
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['lb', 'la']
+}
+
+{
+  Name: an
+  Instruction: 1 AND am
+  InstructionType: R_PARENT
+  Operation: AND
+  Parents: ['am']
+}
+
+{
+  Name: gq
+  Instruction: gn AND gp
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['gn', 'gp']
+}
+
+{
+  Name: lh
+  Instruction: lf RSHIFT 3
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['lf']
+}
+
+{
+  Name: g
+  Instruction: e OR f
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['e', 'f']
+}
+
+{
+  Name: lo
+  Instruction: lg AND lm
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['lg', 'lm']
+}
+
+{
+  Name: db
+  Instruction: ci RSHIFT 1
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['ci']
+}
+
+{
+  Name: cz
+  Instruction: cf LSHIFT 1
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['cf']
+}
+
+{
+  Name: cg
+  Instruction: bn RSHIFT 1
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['bn']
+}
+
+{
+  Name: fg
+  Instruction: et AND fe
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['et', 'fe']
+}
+
+{
+  Name: iu
+  Instruction: is OR it
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['is', 'it']
+}
+
+{
+  Name: kz
+  Instruction: kw AND ky
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['kw', 'ky']
+}
+
+{
+  Name: cn
+  Instruction: ck AND cl
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['ck', 'cl']
+}
+
+{
+  Name: bk
+  Instruction: bj OR bi
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['bj', 'bi']
+}
+
+{
+  Name: hc
+  Instruction: gj RSHIFT 1
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['gj']
+}
+
+{
+  Name: jh
+  Instruction: iu AND jf
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['iu', 'jf']
+}
+
+{
+  Name: bt
+  Instruction: NOT bs
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['bs']
+}
+
+{
+  Name: kw
+  Instruction: kk OR kv
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['kk', 'kv']
+}
+
+{
+  Name: kv
+  Instruction: ks AND ku
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['ks', 'ku']
+}
+
+{
+  Name: il
+  Instruction: hz OR ik
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['hz', 'ik']
+}
+
+{
+  Name: v
+  Instruction: b RSHIFT 1
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['b']
+}
+
+{
+  Name: jn
+  Instruction: iu RSHIFT 1
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['iu']
+}
+
+{
+  Name: fr
+  Instruction: fo RSHIFT 5
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['fo']
+}
+
+{
+  Name: bh
+  Instruction: be AND bg
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['be', 'bg']
+}
+
+{
+  Name: gd
+  Instruction: ga AND gc
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['ga', 'gc']
+}
+
+{
+  Name: hm
+  Instruction: hf OR hl
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['hf', 'hl']
+}
+
+{
+  Name: lf
+  Instruction: ld OR le
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['ld', 'le']
+}
+
+{
+  Name: av
+  Instruction: as RSHIFT 5
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['as']
+}
+
+{
+  Name: fo
+  Instruction: fm OR fn
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['fm', 'fn']
+}
+
+{
+  Name: hp
+  Instruction: hm AND ho
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['hm', 'ho']
+}
+
+{
+  Name: ln
+  Instruction: lg OR lm
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['lg', 'lm']
+}
+
+{
+  Name: ky
+  Instruction: NOT kx
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['kx']
+}
+
+{
+  Name: km
+  Instruction: kk RSHIFT 3
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['kk']
+}
+
+{
+  Name: en
+  Instruction: ek AND em
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['ek', 'em']
+}
+
+{
+  Name: fu
+  Instruction: NOT ft
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['ft']
+}
+
+{
+  Name: ji
+  Instruction: NOT jh
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['jh']
+}
+
+{
+  Name: jp
+  Instruction: jn OR jo
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['jn', 'jo']
+}
+
+{
+  Name: gw
+  Instruction: gj AND gu
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['gj', 'gu']
+}
+
+{
+  Name: l
+  Instruction: d AND j
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['d', 'j']
+}
+
+{
+  Name: fm
+  Instruction: et RSHIFT 1
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['et']
+}
+
+{
+  Name: jx
+  Instruction: jq OR jw
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['jq', 'jw']
+}
+
+{
+  Name: eq
+  Instruction: ep OR eo
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['ep', 'eo']
+}
+
+{
+  Name: lz
+  Instruction: lv LSHIFT 15
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['lv']
+}
+
+{
+  Name: ez
+  Instruction: NOT ey
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['ey']
+}
+
+{
+  Name: jq
+  Instruction: jp RSHIFT 2
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['jp']
+}
+
+{
+  Name: ej
+  Instruction: eg AND ei
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['eg', 'ei']
+}
+
+{
+  Name: dn
+  Instruction: NOT dm
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['dm']
+}
+
+{
+  Name: kc
+  Instruction: jp AND ka
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['jp', 'ka']
+}
+
+{
+  Name: bf
+  Instruction: as AND bd
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['as', 'bd']
+}
+
+{
+  Name: fl
+  Instruction: fk OR fj
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['fk', 'fj']
+}
+
+{
+  Name: dy
+  Instruction: dw OR dx
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['dw', 'dx']
+}
+
+{
+  Name: lm
+  Instruction: lj AND ll
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['lj', 'll']
+}
+
+{
+  Name: ef
+  Instruction: ec AND ee
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['ec', 'ee']
+}
+
+{
+  Name: ft
+  Instruction: fq AND fr
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['fq', 'fr']
+}
+
+{
+  Name: kq
+  Instruction: NOT kp
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['kp']
+}
+
+{
+  Name: kk
+  Instruction: ki OR kj
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['ki', 'kj']
+}
+
+{
+  Name: da
+  Instruction: cz OR cy
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['cz', 'cy']
+}
+
+{
+  Name: au
+  Instruction: as RSHIFT 3
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['as']
+}
+
+{
+  Name: ar
+  Instruction: an LSHIFT 15
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['an']
+}
+
+{
+  Name: fn
+  Instruction: fj LSHIFT 15
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['fj']
+}
+
+{
+  Name: fj
+  Instruction: 1 AND fi
+  InstructionType: R_PARENT
+  Operation: AND
+  Parents: ['fi']
+}
+
+{
+  Name: hx
+  Instruction: he RSHIFT 1
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['he']
+}
+
+{
+  Name: lg
+  Instruction: lf RSHIFT 2
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['lf']
+}
+
+{
+  Name: kj
+  Instruction: kf LSHIFT 15
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['kf']
+}
+
+{
+  Name: eh
+  Instruction: dz AND ef
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['dz', 'ef']
+}
+
+{
+  Name: id
+  Instruction: ib OR ic
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['ib', 'ic']
+}
+
+{
+  Name: li
+  Instruction: lf RSHIFT 5
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['lf']
+}
+
+{
+  Name: br
+  Instruction: bp OR bq
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['bp', 'bq']
+}
+
+{
+  Name: gt
+  Instruction: NOT gs
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['gs']
+}
+
+{
+  Name: gh
+  Instruction: fo RSHIFT 1
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['fo']
+}
+
+{
+  Name: cc
+  Instruction: bz AND cb
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['bz', 'cb']
+}
+
+{
+  Name: ec
+  Instruction: ea OR eb
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['ea', 'eb']
+}
+
+{
+  Name: ls
+  Instruction: lf AND lq
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['lf', 'lq']
+}
+
+{
+  Name: m
+  Instruction: NOT l
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['l']
+}
+
+{
+  Name: ib
+  Instruction: hz RSHIFT 3
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['hz']
+}
+
+{
+  Name: dj
+  Instruction: NOT di
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['di']
+}
+
+{
+  Name: ll
+  Instruction: NOT lk
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['lk']
+}
+
+{
+  Name: jr
+  Instruction: jp RSHIFT 3
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['jp']
+}
+
+{
+  Name: js
+  Instruction: jp RSHIFT 5
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['jp']
+}
+
+{
+  Name: bg
+  Instruction: NOT bf
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['bf']
+}
+
+{
+  Name: w
+  Instruction: s LSHIFT 15
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['s']
+}
+
+{
+  Name: fk
+  Instruction: eq LSHIFT 1
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['eq']
+}
+
+{
+  Name: jm
+  Instruction: jl OR jk
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['jl', 'jk']
+}
+
+{
+  Name: im
+  Instruction: hz AND ik
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['hz', 'ik']
+}
+
+{
+  Name: eg
+  Instruction: dz OR ef
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['dz', 'ef']
+}
+
+{
+  Name: gz
+  Instruction: 1 AND gy
+  InstructionType: R_PARENT
+  Operation: AND
+  Parents: ['gy']
+}
+
+{
+  Name: le
+  Instruction: la LSHIFT 15
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['la']
+}
+
+{
+  Name: bu
+  Instruction: br AND bt
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['br', 'bt']
+}
+
+{
+  Name: co
+  Instruction: NOT cn
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['cn']
+}
+
+{
+  Name: x
+  Instruction: v OR w
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['v', 'w']
+}
+
+{
+  Name: k
+  Instruction: d OR j
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['d', 'j']
+}
+
+{
+  Name: ge
+  Instruction: 1 AND gd
+  InstructionType: R_PARENT
+  Operation: AND
+  Parents: ['gd']
+}
+
+{
+  Name: ih
+  Instruction: ia OR ig
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['ia', 'ig']
+}
+
+{
+  Name: gp
+  Instruction: NOT go
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['go']
+}
+
+{
+  Name: ee
+  Instruction: NOT ed
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['ed']
+}
+
+{
+  Name: jy
+  Instruction: jq AND jw
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['jq', 'jw']
+}
+
+{
+  Name: ff
+  Instruction: et OR fe
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['et', 'fe']
+}
+
+{
+  Name: az
+  Instruction: aw AND ay
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['aw', 'ay']
+}
+
+{
+  Name: fi
+  Instruction: ff AND fh
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['ff', 'fh']
+}
+
+{
+  Name: jl
+  Instruction: ir LSHIFT 1
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['ir']
+}
+
+{
+  Name: ha
+  Instruction: gg LSHIFT 1
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['gg']
+}
+
+{
+  Name: y
+  Instruction: x RSHIFT 2
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['x']
+}
+
+{
+  Name: dd
+  Instruction: db OR dc
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['db', 'dc']
+}
+
+{
+  Name: bn
+  Instruction: bl OR bm
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['bl', 'bm']
+}
+
+{
+  Name: ie
+  Instruction: ib AND ic
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['ib', 'ic']
+}
+
+{
+  Name: z
+  Instruction: x RSHIFT 3
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['x']
+}
+
+{
+  Name: lk
+  Instruction: lh AND li
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['lh', 'li']
+}
+
+{
+  Name: cf
+  Instruction: ce OR cd
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['ce', 'cd']
+}
+
+{
+  Name: bc
+  Instruction: NOT bb
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['bb']
+}
+
+{
+  Name: hl
+  Instruction: hi AND hk
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['hi', 'hk']
+}
+
+{
+  Name: gc
+  Instruction: NOT gb
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['gb']
+}
+
+{
+  Name: s
+  Instruction: 1 AND r
+  InstructionType: R_PARENT
+  Operation: AND
+  Parents: ['r']
+}
+
+{
+  Name: fz
+  Instruction: fw AND fy
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['fw', 'fy']
+}
+
+{
+  Name: fe
+  Instruction: fb AND fd
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['fb', 'fd']
+}
+
+{
+  Name: eo
+  Instruction: 1 AND en
+  InstructionType: R_PARENT
+  Operation: AND
+  Parents: ['en']
+}
+
+{
+  Name: ab
+  Instruction: z OR aa
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['z', 'aa']
+}
+
+{
+  Name: bm
+  Instruction: bi LSHIFT 15
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['bi']
+}
+
+{
+  Name: hi
+  Instruction: hg OR hh
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['hg', 'hh']
+}
+
+{
+  Name: lb
+  Instruction: kh LSHIFT 1
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['kh']
+}
+
+{
+  Name: ci
+  Instruction: cg OR ch
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['cg', 'ch']
+}
+
+{
+  Name: la
+  Instruction: 1 AND kz
+  InstructionType: R_PARENT
+  Operation: AND
+  Parents: ['kz']
+}
+
+{
+  Name: gg
+  Instruction: gf OR ge
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['gf', 'ge']
+}
+
+{
+  Name: gk
+  Instruction: gj RSHIFT 2
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['gj']
+}
+
+{
+  Name: de
+  Instruction: dd RSHIFT 2
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['dd']
+}
+
+{
+  Name: lt
+  Instruction: NOT ls
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['ls']
+}
+
+{
+  Name: lj
+  Instruction: lh OR li
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['lh', 'li']
+}
+
+{
+  Name: jt
+  Instruction: jr OR js
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['jr', 'js']
+}
+
+{
+  Name: ax
+  Instruction: au AND av
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['au', 'av']
+}
+
+{
+  Name: c
+  Instruction: 0
+  InstructionType: DIRECT_NUMBER
+  Operation: NONE
+  Parents: ['none']
+}
+
+{
+  Name: hr
+  Instruction: he AND hp
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['he', 'hp']
+}
+
+{
+  Name: ig
+  Instruction: id AND if
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['id', 'if']
+}
+
+{
+  Name: ew
+  Instruction: et RSHIFT 5
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['et']
+}
+
+{
+  Name: bs
+  Instruction: bp AND bq
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['bp', 'bq']
+}
+
+{
+  Name: h
+  Instruction: e AND f
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['e', 'f']
+}
+
+{
+  Name: ma
+  Instruction: ly OR lz
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['ly', 'lz']
+}
+
+{
+  Name: lv
+  Instruction: 1 AND lu
+  InstructionType: R_PARENT
+  Operation: AND
+  Parents: ['lu']
+}
+
+{
+  Name: je
+  Instruction: NOT jd
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['jd']
+}
+
+{
+  Name: hb
+  Instruction: ha OR gz
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['ha', 'gz']
+}
+
+{
+  Name: er
+  Instruction: dy RSHIFT 1
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['dy']
+}
+
+{
+  Name: iv
+  Instruction: iu RSHIFT 2
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['iu']
+}
+
+{
+  Name: hs
+  Instruction: NOT hr
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['hr']
+}
+
+{
+  Name: bl
+  Instruction: as RSHIFT 1
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['as']
+}
+
+{
+  Name: kl
+  Instruction: kk RSHIFT 2
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['kk']
+}
+
+{
+  Name: p
+  Instruction: b AND n
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['b', 'n']
+}
+
+{
+  Name: lq
+  Instruction: ln AND lp
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['ln', 'lp']
+}
+
+{
+  Name: cr
+  Instruction: cj AND cp
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['cj', 'cp']
+}
+
+{
+  Name: do
+  Instruction: dl AND dn
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['dl', 'dn']
+}
+
+{
+  Name: cj
+  Instruction: ci RSHIFT 2
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['ci']
+}
+
+{
+  Name: be
+  Instruction: as OR bd
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['as', 'bd']
+}
+
+{
+  Name: gi
+  Instruction: ge LSHIFT 15
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['ge']
+}
+
+{
+  Name: ic
+  Instruction: hz RSHIFT 5
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['hz']
+}
+
+{
+  Name: ep
+  Instruction: dv LSHIFT 1
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['dv']
+}
+
+{
+  Name: ks
+  Instruction: kl OR kr
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['kl', 'kr']
+}
+
+{
+  Name: gv
+  Instruction: gj OR gu
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['gj', 'gu']
+}
+
+{
+  Name: hh
+  Instruction: he RSHIFT 5
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['he']
+}
+
+{
+  Name: fh
+  Instruction: NOT fg
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['fg']
+}
+
+{
+  Name: hj
+  Instruction: hg AND hh
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['hg', 'hh']
+}
+
+{
+  Name: o
+  Instruction: b OR n
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['b', 'n']
+}
+
+{
+  Name: jo
+  Instruction: jk LSHIFT 15
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['jk']
+}
+
+{
+  Name: hd
+  Instruction: gz LSHIFT 15
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['gz']
+}
+
+{
+  Name: dc
+  Instruction: cy LSHIFT 15
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['cy']
+}
+
+{
+  Name: kn
+  Instruction: kk RSHIFT 5
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['kk']
+}
+
+{
+  Name: ck
+  Instruction: ci RSHIFT 3
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['ci']
+}
+
+{
+  Name: ba
+  Instruction: at OR az
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['at', 'az']
+}
+
+{
+  Name: iw
+  Instruction: iu RSHIFT 3
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['iu']
+}
+
+{
+  Name: kr
+  Instruction: ko AND kq
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['ko', 'kq']
+}
+
+{
+  Name: ei
+  Instruction: NOT eh
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['eh']
+}
+
+{
+  Name: as
+  Instruction: aq OR ar
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['aq', 'ar']
+}
+
+{
+  Name: jb
+  Instruction: iy AND ja
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['iy', 'ja']
+}
+
+{
+  Name: df
+  Instruction: dd RSHIFT 3
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['dd']
+}
+
+{
+  Name: bp
+  Instruction: bn RSHIFT 3
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['bn']
+}
+
+{
+  Name: cd
+  Instruction: 1 AND cc
+  InstructionType: R_PARENT
+  Operation: AND
+  Parents: ['cc']
+}
+
+{
+  Name: bb
+  Instruction: at AND az
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['at', 'az']
+}
+
+{
+  Name: aj
+  Instruction: x OR ai
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['x', 'ai']
+}
+
+{
+  Name: kx
+  Instruction: kk AND kv
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['kk', 'kv']
+}
+
+{
+  Name: ap
+  Instruction: ao OR an
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['ao', 'an']
+}
+
+{
+  Name: ea
+  Instruction: dy RSHIFT 3
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['dy']
+}
+
+{
+  Name: aq
+  Instruction: x RSHIFT 1
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['x']
+}
+
+{
+  Name: fc
+  Instruction: eu AND fa
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['eu', 'fa']
+}
+
+{
+  Name: kt
+  Instruction: kl AND kr
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['kl', 'kr']
+}
+
+{
+  Name: ii
+  Instruction: ia AND ig
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['ia', 'ig']
+}
+
+{
+  Name: di
+  Instruction: df AND dg
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['df', 'dg']
+}
+
+{
+  Name: fy
+  Instruction: NOT fx
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['fx']
+}
+
+{
+  Name: n
+  Instruction: k AND m
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['k', 'm']
+}
+
+{
+  Name: bq
+  Instruction: bn RSHIFT 5
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['bn']
+}
+
+{
+  Name: kp
+  Instruction: km AND kn
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['km', 'kn']
+}
+
+{
+  Name: dx
+  Instruction: dt LSHIFT 15
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['dt']
+}
+
+{
+  Name: ia
+  Instruction: hz RSHIFT 2
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['hz']
+}
+
+{
+  Name: am
+  Instruction: aj AND al
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['aj', 'al']
+}
+
+{
+  Name: ch
+  Instruction: cd LSHIFT 15
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['cd']
+}
+
+{
+  Name: he
+  Instruction: hc OR hd
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['hc', 'hd']
+}
+
+{
+  Name: hg
+  Instruction: he RSHIFT 3
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['he']
+}
+
+{
+  Name: bz
+  Instruction: bn OR by
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['bn', 'by']
+}
+
+{
+  Name: ku
+  Instruction: NOT kt
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['kt']
+}
+
+{
+  Name: ac
+  Instruction: z AND aa
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['z', 'aa']
+}
+
+{
+  Name: al
+  Instruction: NOT ak
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['ak']
+}
+
+{
+  Name: cx
+  Instruction: cu AND cw
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['cu', 'cw']
+}
+
+{
+  Name: if
+  Instruction: NOT ie
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['ie']
+}
+
+{
+  Name: dz
+  Instruction: dy RSHIFT 2
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['dy']
+}
+
+{
+  Name: it
+  Instruction: ip LSHIFT 15
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['ip']
+}
+
+{
+  Name: dl
+  Instruction: de OR dk
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['de', 'dk']
+}
+
+{
+  Name: aw
+  Instruction: au OR av
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['au', 'av']
+}
+
+{
+  Name: jj
+  Instruction: jg AND ji
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['jg', 'ji']
+}
+
+{
+  Name: cv
+  Instruction: ci AND ct
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['ci', 'ct']
+}
+
+{
+  Name: eb
+  Instruction: dy RSHIFT 5
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['dy']
+}
+
+{
+  Name: hz
+  Instruction: hx OR hy
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['hx', 'hy']
+}
+
+{
+  Name: fb
+  Instruction: eu OR fa
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['eu', 'fa']
+}
+
+{
+  Name: gl
+  Instruction: gj RSHIFT 3
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['gj']
+}
+
+{
+  Name: gb
+  Instruction: fo AND fz
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['fo', 'fz']
+}
+
+{
+  Name: jk
+  Instruction: 1 AND jj
+  InstructionType: R_PARENT
+  Operation: AND
+  Parents: ['jj']
+}
+
+{
+  Name: kb
+  Instruction: jp OR ka
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['jp', 'ka']
+}
+
+{
+  Name: dm
+  Instruction: de AND dk
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['de', 'dk']
+}
+
+{
+  Name: fa
+  Instruction: ex AND ez
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['ex', 'ez']
+}
+
+{
+  Name: dh
+  Instruction: df OR dg
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['df', 'dg']
+}
+
+{
+  Name: jc
+  Instruction: iv OR jb
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['iv', 'jb']
+}
+
+{
+  Name: aa
+  Instruction: x RSHIFT 5
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['x']
+}
+
+{
+  Name: hk
+  Instruction: NOT hj
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['hj']
+}
+
+{
+  Name: in
+  Instruction: NOT im
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['im']
+}
+
+{
+  Name: gf
+  Instruction: fl LSHIFT 1
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['fl']
+}
+
+{
+  Name: hy
+  Instruction: hu LSHIFT 15
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['hu']
+}
+
+{
+  Name: ir
+  Instruction: iq OR ip
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['iq', 'ip']
+}
+
+{
+  Name: ix
+  Instruction: iu RSHIFT 5
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['iu']
+}
+
+{
+  Name: fd
+  Instruction: NOT fc
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['fc']
+}
+
+{
+  Name: em
+  Instruction: NOT el
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['el']
+}
+
+{
+  Name: cm
+  Instruction: ck OR cl
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['ck', 'cl']
+}
+
+{
+  Name: ev
+  Instruction: et RSHIFT 3
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['et']
+}
+
+{
+  Name: iq
+  Instruction: hw LSHIFT 1
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['hw']
+}
+
+{
+  Name: cl
+  Instruction: ci RSHIFT 5
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['ci']
+}
+
+{
+  Name: jd
+  Instruction: iv AND jb
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['iv', 'jb']
+}
+
+{
+  Name: dg
+  Instruction: dd RSHIFT 5
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['dd']
+}
+
+{
+  Name: at
+  Instruction: as RSHIFT 2
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['as']
+}
+
+{
+  Name: jz
+  Instruction: NOT jy
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['jy']
+}
+
+{
+  Name: ai
+  Instruction: af AND ah
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['af', 'ah']
+}
+
+{
+  Name: dt
+  Instruction: 1 AND ds
+  InstructionType: R_PARENT
+  Operation: AND
+  Parents: ['ds']
+}
+
+{
+  Name: ka
+  Instruction: jx AND jz
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['jx', 'jz']
+}
+
+{
+  Name: du
+  Instruction: da LSHIFT 1
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['da']
+}
+
+{
+  Name: fv
+  Instruction: fs AND fu
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['fs', 'fu']
+}
+
+{
+  Name: ki
+  Instruction: jp RSHIFT 1
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['jp']
+}
+
+{
+  Name: iz
+  Instruction: iw AND ix
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['iw', 'ix']
+}
+
+{
+  Name: iy
+  Instruction: iw OR ix
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['iw', 'ix']
+}
+
+{
+  Name: es
+  Instruction: eo LSHIFT 15
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['eo']
+}
+
+{
+  Name: ey
+  Instruction: ev AND ew
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['ev', 'ew']
+}
+
+{
+  Name: bd
+  Instruction: ba AND bc
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['ba', 'bc']
+}
+
+{
+  Name: fx
+  Instruction: fp AND fv
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['fp', 'fv']
+}
+
+{
+  Name: jf
+  Instruction: jc AND je
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['jc', 'je']
+}
+
+{
+  Name: eu
+  Instruction: et RSHIFT 2
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['et']
+}
+
+{
+  Name: kh
+  Instruction: kg OR kf
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['kg', 'kf']
+}
+
+{
+  Name: jg
+  Instruction: iu OR jf
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['iu', 'jf']
+}
+
+{
+  Name: et
+  Instruction: er OR es
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['er', 'es']
+}
+
+{
+  Name: fp
+  Instruction: fo RSHIFT 2
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['fo']
+}
+
+{
+  Name: cb
+  Instruction: NOT ca
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['ca']
+}
+
+{
+  Name: by
+  Instruction: bv AND bx
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['bv', 'bx']
+}
+
+{
+  Name: ao
+  Instruction: u LSHIFT 1
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['u']
+}
+
+{
+  Name: cp
+  Instruction: cm AND co
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['cm', 'co']
+}
+
+{
+  Name: af
+  Instruction: y OR ae
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['y', 'ae']
+}
+
+{
+  Name: ca
+  Instruction: bn AND by
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['bn', 'by']
+}
+
+{
+  Name: kf
+  Instruction: 1 AND ke
+  InstructionType: R_PARENT
+  Operation: AND
+  Parents: ['ke']
+}
+
+{
+  Name: jw
+  Instruction: jt AND jv
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['jt', 'jv']
+}
+
+{
+  Name: fs
+  Instruction: fq OR fr
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['fq', 'fr']
+}
+
+{
+  Name: el
+  Instruction: dy AND ej
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['dy', 'ej']
+}
+
+{
+  Name: kd
+  Instruction: NOT kc
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['kc']
+}
+
+{
+  Name: ex
+  Instruction: ev OR ew
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['ev', 'ew']
+}
+
+{
+  Name: dp
+  Instruction: dd OR do
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['dd', 'do']
+}
+
+{
+  Name: cw
+  Instruction: NOT cv
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['cv']
+}
+
+{
+  Name: gu
+  Instruction: gr AND gt
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['gr', 'gt']
+}
+
+{
+  Name: dw
+  Instruction: dd RSHIFT 1
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['dd']
+}
+
+{
+  Name: gx
+  Instruction: NOT gw
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['gw']
+}
+
+{
+  Name: ja
+  Instruction: NOT iz
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['iz']
+}
+
+{
+  Name: ip
+  Instruction: 1 AND io
+  InstructionType: R_PARENT
+  Operation: AND
+  Parents: ['io']
+}
+
+{
+  Name: ah
+  Instruction: NOT ag
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['ag']
+}
+
+{
+  Name: f
+  Instruction: b RSHIFT 5
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['b']
+}
+
+{
+  Name: cs
+  Instruction: NOT cr
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['cr']
+}
+
+{
+  Name: ke
+  Instruction: kb AND kd
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['kb', 'kd']
+}
+
+{
+  Name: ju
+  Instruction: jr AND js
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['jr', 'js']
+}
+
+{
+  Name: ct
+  Instruction: cq AND cs
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['cq', 'cs']
+}
+
+{
+  Name: io
+  Instruction: il AND in
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['il', 'in']
+}
+
+{
+  Name: jv
+  Instruction: NOT ju
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['ju']
+}
+
+{
+  Name: dv
+  Instruction: du OR dt
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['du', 'dt']
+}
+
+{
+  Name: dq
+  Instruction: dd AND do
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['dd', 'do']
+}
+
+{
+  Name: d
+  Instruction: b RSHIFT 2
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['b']
+}
+
+{
+  Name: kg
+  Instruction: jm LSHIFT 1
+  InstructionType: L_PARENT
+  Operation: LSHIFT
+  Parents: ['jm']
+}
+
+{
+  Name: dr
+  Instruction: NOT dq
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['dq']
+}
+
+{
+  Name: bv
+  Instruction: bo OR bu
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['bo', 'bu']
+}
+
+{
+  Name: gr
+  Instruction: gk OR gq
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['gk', 'gq']
+}
+
+{
+  Name: hq
+  Instruction: he OR hp
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['he', 'hp']
+}
+
+{
+  Name: i
+  Instruction: NOT h
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['h']
+}
+
+{
+  Name: hn
+  Instruction: hf AND hl
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['hf', 'hl']
+}
+
+{
+  Name: gy
+  Instruction: gv AND gx
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['gv', 'gx']
+}
+
+{
+  Name: ak
+  Instruction: x AND ai
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['x', 'ai']
+}
+
+{
+  Name: bw
+  Instruction: bo AND bu
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['bo', 'bu']
+}
+
+{
+  Name: ht
+  Instruction: hq AND hs
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['hq', 'hs']
+}
+
+{
+  Name: is
+  Instruction: hz RSHIFT 1
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['hz']
+}
+
+{
+  Name: gm
+  Instruction: gj RSHIFT 5
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['gj']
+}
+
+{
+  Name: j
+  Instruction: g AND i
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['g', 'i']
+}
+
+{
+  Name: gs
+  Instruction: gk AND gq
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['gk', 'gq']
+}
+
+{
+  Name: ds
+  Instruction: dp AND dr
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['dp', 'dr']
+}
+
+{
+  Name: e
+  Instruction: b RSHIFT 3
+  InstructionType: L_PARENT
+  Operation: RSHIFT
+  Parents: ['b']
+}
+
+{
+  Name: go
+  Instruction: gl AND gm
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['gl', 'gm']
+}
+
+{
+  Name: gn
+  Instruction: gl OR gm
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['gl', 'gm']
+}
+
+{
+  Name: ag
+  Instruction: y AND ae
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['y', 'ae']
+}
+
+{
+  Name: hw
+  Instruction: hv OR hu
+  InstructionType: BINARY
+  Operation: OR
+  Parents: ['hv', 'hu']
+}
+
+{
+  Name: b
+  Instruction: 1674
+  InstructionType: DIRECT_NUMBER
+  Operation: NONE
+  Parents: ['none']
+}
+
+{
+  Name: ae
+  Instruction: ab AND ad
+  InstructionType: BINARY
+  Operation: AND
+  Parents: ['ab', 'ad']
+}
+
+{
+  Name: ad
+  Instruction: NOT ac
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['ac']
+}
+
+{
+  Name: hu
+  Instruction: 1 AND ht
+  InstructionType: R_PARENT
+  Operation: AND
+  Parents: ['ht']
+}
+
+{
+  Name: ho
+  Instruction: NOT hn
+  InstructionType: UNARY
+  Operation: NOT
+  Parents: ['hn']
+}
+
