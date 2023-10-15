@@ -28,3 +28,10 @@ def get_distances(lines: list[str]) -> list[tuple[str, str, int]]:
         distance: tuple[str, str, int] = (split[0], split[2], int(split[4]))
         distances.append(distance)
     return distances
+
+
+def format_route(route: list[str]) -> str:
+    formatted: str = ""
+    for c in route:
+        formatted += c
+    return formatted

@@ -1,9 +1,4 @@
-def calculate_distances(
-    cities: list[str], distances: list[tuple[str, str, int]], routes: list[list[str]]
-) -> list[tuple[str, int]]:
-    route_distances: list[tuple[str, int]] = []
-
-    return route_distances
+from parsing import format_route
 
 
 def generate_perms(
@@ -22,16 +17,50 @@ def generate_perms(
     return routes
 
 
-def valid_routes(
-    distances: list[tuple[str, str, int]], routes: list[list[str]]
+def validate_routes(
+    routes: list[list[str]], distances: list[tuple[str, str, int]]
 ) -> list[list[str]]:
     valid_routes: list[list[str]] = []
-
-    for route in routes:
-        for i in range(len(route) - 1):
-            valid: bool = False
-            for d in distances:
-                if route[i] in distances and route[i + 1] in distances:
-                    valid = True
+    for r in routes:
+        if validate_route(r, distances):
+            valid_routes.append(r)
 
     return valid_routes
+
+
+def validate_route(route: list[str], distances: list[tuple[str, str, int]]) -> bool:
+    valid: bool = False
+    for i in range(len(route) - 1):
+        for d in distances:
+            if route[i] in d and route[i + 1] in d:
+                valid = True
+                break
+    return valid
+
+
+def calculate_distances(
+    routes: list[list[str]], distances: list[tuple[str, str, int]]
+) -> list[tuple[str, int]]:
+    calculated: list[tuple[str, int]] = []
+    for r in routes:
+        combined: tuple[str, int] = (format_route(r), calculate_distance(r, distances))
+        calculated.append(combined)
+    return calculated
+
+
+def calculate_distance(route: list[str], distances: list[tuple[str, str, int]]) -> int:
+    total: int = 0
+    for i in range(len(route) - 1):
+        for d in distances:
+            if route[i] in d and route[i + 1] in d:
+                total += d[2]
+                break
+    return total
+
+
+def getMin(calculated: list[tuple[str, int]]) -> int:
+    min: int = calculated[0][1]
+    for c in calculated:
+        if c[1] < min:
+            min = c[1]
+    return min
