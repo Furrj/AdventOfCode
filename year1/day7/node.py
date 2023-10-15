@@ -24,7 +24,9 @@ class Node:
     name: str
     instruction: str
     instruction_type: InstructionTypes
+    instruction_list: list[str]
     operation: Operations
+    operands: list[str]
     value: int
     parents: list[str]
 
@@ -34,17 +36,22 @@ class Node:
 
         self.name = p.get_name(line)
         self.instruction = p.get_instruction(line)
-        self.instruction_type = p.get_instruction_type(self.instruction)
+        self.instruction_list = self.instruction.split(" ")
+        self.instruction_type = p.get_instruction_type(self.instruction_list)
         self.operation = p.get_operation(self.instruction)
-        self.parents = p.get_parents(self.instruction, self.instruction_type)
+        self.operands = p.get_operands(self.instruction_list, self.instruction_type)
+        self.parents = p.get_parents(self.instruction_list, self.instruction_type)
+        self.value = -1
 
     def __str__(self):
         string: str = "{\n"
         string += f"  Name: {self.name}\n"
         string += f"  Instruction: {self.instruction}\n"
-        string += f"  InstructionType: {self.instruction_type.name}\n"
+        string += f"  Instruction_type: {self.instruction_type.name}\n"
         string += f"  Operation: {self.operation.name}\n"
+        string += f"  Operands: {self.operands}\n"
         string += f"  Parents: {self.parents}\n"
+        string += f"  Value: {self.value}\n"
         string += "}\n"
         return string
 

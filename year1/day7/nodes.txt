@@ -1,2712 +1,3390 @@
 {
   Name: bo
   Instruction: bn RSHIFT 2
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['bn', '2']
   Parents: ['bn']
+  Value: -1
 }
 
 {
   Name: ly
   Instruction: lf RSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['lf', '1']
   Parents: ['lf']
+  Value: -1
 }
 
 {
   Name: fq
   Instruction: fo RSHIFT 3
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['fo', '3']
   Parents: ['fo']
+  Value: -1
 }
 
 {
   Name: cq
   Instruction: cj OR cp
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['cj', 'cp']
   Parents: ['cj', 'cp']
+  Value: -1
 }
 
 {
   Name: ga
   Instruction: fo OR fz
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['fo', 'fz']
   Parents: ['fo', 'fz']
+  Value: -1
 }
 
 {
   Name: u
   Instruction: t OR s
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['t', 's']
   Parents: ['t', 's']
+  Value: -1
 }
 
 {
   Name: a
   Instruction: lx
-  InstructionType: DIRECT_PARENT
+  Instruction_type: DIRECT_PARENT
   Operation: NONE
+  Operands: ['none']
   Parents: ['lx']
+  Value: -1
 }
 
 {
   Name: ay
   Instruction: NOT ax
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['ax']
   Parents: ['ax']
+  Value: -1
 }
 
 {
   Name: hf
   Instruction: he RSHIFT 2
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['he', '2']
   Parents: ['he']
+  Value: -1
 }
 
 {
   Name: lr
   Instruction: lf OR lq
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['lf', 'lq']
   Parents: ['lf', 'lq']
+  Value: -1
 }
 
 {
   Name: lu
   Instruction: lr AND lt
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['lr', 'lt']
   Parents: ['lr', 'lt']
+  Value: -1
 }
 
 {
   Name: ek
   Instruction: dy OR ej
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['dy', 'ej']
   Parents: ['dy', 'ej']
+  Value: -1
 }
 
 {
   Name: cy
   Instruction: 1 AND cx
-  InstructionType: R_PARENT
+  Instruction_type: R_PARENT
   Operation: AND
+  Operands: ['1', 'cx']
   Parents: ['cx']
+  Value: -1
 }
 
 {
   Name: hv
   Instruction: hb LSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['hb', '1']
   Parents: ['hb']
+  Value: -1
 }
 
 {
   Name: bi
   Instruction: 1 AND bh
-  InstructionType: R_PARENT
+  Instruction_type: R_PARENT
   Operation: AND
+  Operands: ['1', 'bh']
   Parents: ['bh']
+  Value: -1
 }
 
 {
   Name: ik
   Instruction: ih AND ij
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['ih', 'ij']
   Parents: ['ih', 'ij']
+  Value: -1
 }
 
 {
   Name: t
   Instruction: c LSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['c', '1']
   Parents: ['c']
+  Value: -1
 }
 
 {
   Name: ed
   Instruction: ea AND eb
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['ea', 'eb']
   Parents: ['ea', 'eb']
+  Value: -1
 }
 
 {
   Name: ko
   Instruction: km OR kn
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['km', 'kn']
   Parents: ['km', 'kn']
+  Value: -1
 }
 
 {
   Name: bx
   Instruction: NOT bw
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['bw']
   Parents: ['bw']
+  Value: -1
 }
 
 {
   Name: cu
   Instruction: ci OR ct
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['ci', 'ct']
   Parents: ['ci', 'ct']
+  Value: -1
 }
 
 {
   Name: q
   Instruction: NOT p
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['p']
   Parents: ['p']
+  Value: -1
 }
 
 {
   Name: lx
   Instruction: lw OR lv
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['lw', 'lv']
   Parents: ['lw', 'lv']
+  Value: -1
 }
 
 {
   Name: lp
   Instruction: NOT lo
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['lo']
   Parents: ['lo']
+  Value: -1
 }
 
 {
   Name: fw
   Instruction: fp OR fv
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['fp', 'fv']
   Parents: ['fp', 'fv']
+  Value: -1
 }
 
 {
   Name: r
   Instruction: o AND q
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['o', 'q']
   Parents: ['o', 'q']
+  Value: -1
 }
 
 {
   Name: dk
   Instruction: dh AND dj
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['dh', 'dj']
   Parents: ['dh', 'dj']
+  Value: -1
 }
 
 {
   Name: bj
   Instruction: ap LSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['ap', '1']
   Parents: ['ap']
+  Value: -1
 }
 
 {
   Name: ce
   Instruction: bk LSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['bk', '1']
   Parents: ['bk']
+  Value: -1
 }
 
 {
   Name: ij
   Instruction: NOT ii
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['ii']
   Parents: ['ii']
+  Value: -1
 }
 
 {
   Name: gj
   Instruction: gh OR gi
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['gh', 'gi']
   Parents: ['gh', 'gi']
+  Value: -1
 }
 
 {
   Name: ld
   Instruction: kk RSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['kk', '1']
   Parents: ['kk']
+  Value: -1
 }
 
 {
   Name: lw
   Instruction: lc LSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['lc', '1']
   Parents: ['lc']
+  Value: -1
 }
 
 {
   Name: lc
   Instruction: lb OR la
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['lb', 'la']
   Parents: ['lb', 'la']
+  Value: -1
 }
 
 {
   Name: an
   Instruction: 1 AND am
-  InstructionType: R_PARENT
+  Instruction_type: R_PARENT
   Operation: AND
+  Operands: ['1', 'am']
   Parents: ['am']
+  Value: -1
 }
 
 {
   Name: gq
   Instruction: gn AND gp
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['gn', 'gp']
   Parents: ['gn', 'gp']
+  Value: -1
 }
 
 {
   Name: lh
   Instruction: lf RSHIFT 3
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['lf', '3']
   Parents: ['lf']
+  Value: -1
 }
 
 {
   Name: g
   Instruction: e OR f
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['e', 'f']
   Parents: ['e', 'f']
+  Value: -1
 }
 
 {
   Name: lo
   Instruction: lg AND lm
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['lg', 'lm']
   Parents: ['lg', 'lm']
+  Value: -1
 }
 
 {
   Name: db
   Instruction: ci RSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['ci', '1']
   Parents: ['ci']
+  Value: -1
 }
 
 {
   Name: cz
   Instruction: cf LSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['cf', '1']
   Parents: ['cf']
+  Value: -1
 }
 
 {
   Name: cg
   Instruction: bn RSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['bn', '1']
   Parents: ['bn']
+  Value: -1
 }
 
 {
   Name: fg
   Instruction: et AND fe
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['et', 'fe']
   Parents: ['et', 'fe']
+  Value: -1
 }
 
 {
   Name: iu
   Instruction: is OR it
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['is', 'it']
   Parents: ['is', 'it']
+  Value: -1
 }
 
 {
   Name: kz
   Instruction: kw AND ky
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['kw', 'ky']
   Parents: ['kw', 'ky']
+  Value: -1
 }
 
 {
   Name: cn
   Instruction: ck AND cl
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['ck', 'cl']
   Parents: ['ck', 'cl']
+  Value: -1
 }
 
 {
   Name: bk
   Instruction: bj OR bi
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['bj', 'bi']
   Parents: ['bj', 'bi']
+  Value: -1
 }
 
 {
   Name: hc
   Instruction: gj RSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['gj', '1']
   Parents: ['gj']
+  Value: -1
 }
 
 {
   Name: jh
   Instruction: iu AND jf
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['iu', 'jf']
   Parents: ['iu', 'jf']
+  Value: -1
 }
 
 {
   Name: bt
   Instruction: NOT bs
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['bs']
   Parents: ['bs']
+  Value: -1
 }
 
 {
   Name: kw
   Instruction: kk OR kv
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['kk', 'kv']
   Parents: ['kk', 'kv']
+  Value: -1
 }
 
 {
   Name: kv
   Instruction: ks AND ku
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['ks', 'ku']
   Parents: ['ks', 'ku']
+  Value: -1
 }
 
 {
   Name: il
   Instruction: hz OR ik
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['hz', 'ik']
   Parents: ['hz', 'ik']
+  Value: -1
 }
 
 {
   Name: v
   Instruction: b RSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['b', '1']
   Parents: ['b']
+  Value: -1
 }
 
 {
   Name: jn
   Instruction: iu RSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['iu', '1']
   Parents: ['iu']
+  Value: -1
 }
 
 {
   Name: fr
   Instruction: fo RSHIFT 5
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['fo', '5']
   Parents: ['fo']
+  Value: -1
 }
 
 {
   Name: bh
   Instruction: be AND bg
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['be', 'bg']
   Parents: ['be', 'bg']
+  Value: -1
 }
 
 {
   Name: gd
   Instruction: ga AND gc
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['ga', 'gc']
   Parents: ['ga', 'gc']
+  Value: -1
 }
 
 {
   Name: hm
   Instruction: hf OR hl
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['hf', 'hl']
   Parents: ['hf', 'hl']
+  Value: -1
 }
 
 {
   Name: lf
   Instruction: ld OR le
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['ld', 'le']
   Parents: ['ld', 'le']
+  Value: -1
 }
 
 {
   Name: av
   Instruction: as RSHIFT 5
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['as', '5']
   Parents: ['as']
+  Value: -1
 }
 
 {
   Name: fo
   Instruction: fm OR fn
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['fm', 'fn']
   Parents: ['fm', 'fn']
+  Value: -1
 }
 
 {
   Name: hp
   Instruction: hm AND ho
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['hm', 'ho']
   Parents: ['hm', 'ho']
+  Value: -1
 }
 
 {
   Name: ln
   Instruction: lg OR lm
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['lg', 'lm']
   Parents: ['lg', 'lm']
+  Value: -1
 }
 
 {
   Name: ky
   Instruction: NOT kx
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['kx']
   Parents: ['kx']
+  Value: -1
 }
 
 {
   Name: km
   Instruction: kk RSHIFT 3
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['kk', '3']
   Parents: ['kk']
+  Value: -1
 }
 
 {
   Name: en
   Instruction: ek AND em
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['ek', 'em']
   Parents: ['ek', 'em']
+  Value: -1
 }
 
 {
   Name: fu
   Instruction: NOT ft
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['ft']
   Parents: ['ft']
+  Value: -1
 }
 
 {
   Name: ji
   Instruction: NOT jh
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['jh']
   Parents: ['jh']
+  Value: -1
 }
 
 {
   Name: jp
   Instruction: jn OR jo
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['jn', 'jo']
   Parents: ['jn', 'jo']
+  Value: -1
 }
 
 {
   Name: gw
   Instruction: gj AND gu
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['gj', 'gu']
   Parents: ['gj', 'gu']
+  Value: -1
 }
 
 {
   Name: l
   Instruction: d AND j
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['d', 'j']
   Parents: ['d', 'j']
+  Value: -1
 }
 
 {
   Name: fm
   Instruction: et RSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['et', '1']
   Parents: ['et']
+  Value: -1
 }
 
 {
   Name: jx
   Instruction: jq OR jw
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['jq', 'jw']
   Parents: ['jq', 'jw']
+  Value: -1
 }
 
 {
   Name: eq
   Instruction: ep OR eo
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['ep', 'eo']
   Parents: ['ep', 'eo']
+  Value: -1
 }
 
 {
   Name: lz
   Instruction: lv LSHIFT 15
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['lv', '15']
   Parents: ['lv']
+  Value: -1
 }
 
 {
   Name: ez
   Instruction: NOT ey
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['ey']
   Parents: ['ey']
+  Value: -1
 }
 
 {
   Name: jq
   Instruction: jp RSHIFT 2
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['jp', '2']
   Parents: ['jp']
+  Value: -1
 }
 
 {
   Name: ej
   Instruction: eg AND ei
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['eg', 'ei']
   Parents: ['eg', 'ei']
+  Value: -1
 }
 
 {
   Name: dn
   Instruction: NOT dm
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['dm']
   Parents: ['dm']
+  Value: -1
 }
 
 {
   Name: kc
   Instruction: jp AND ka
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['jp', 'ka']
   Parents: ['jp', 'ka']
+  Value: -1
 }
 
 {
   Name: bf
   Instruction: as AND bd
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['as', 'bd']
   Parents: ['as', 'bd']
+  Value: -1
 }
 
 {
   Name: fl
   Instruction: fk OR fj
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['fk', 'fj']
   Parents: ['fk', 'fj']
+  Value: -1
 }
 
 {
   Name: dy
   Instruction: dw OR dx
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['dw', 'dx']
   Parents: ['dw', 'dx']
+  Value: -1
 }
 
 {
   Name: lm
   Instruction: lj AND ll
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['lj', 'll']
   Parents: ['lj', 'll']
+  Value: -1
 }
 
 {
   Name: ef
   Instruction: ec AND ee
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['ec', 'ee']
   Parents: ['ec', 'ee']
+  Value: -1
 }
 
 {
   Name: ft
   Instruction: fq AND fr
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['fq', 'fr']
   Parents: ['fq', 'fr']
+  Value: -1
 }
 
 {
   Name: kq
   Instruction: NOT kp
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['kp']
   Parents: ['kp']
+  Value: -1
 }
 
 {
   Name: kk
   Instruction: ki OR kj
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['ki', 'kj']
   Parents: ['ki', 'kj']
+  Value: -1
 }
 
 {
   Name: da
   Instruction: cz OR cy
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['cz', 'cy']
   Parents: ['cz', 'cy']
+  Value: -1
 }
 
 {
   Name: au
   Instruction: as RSHIFT 3
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['as', '3']
   Parents: ['as']
+  Value: -1
 }
 
 {
   Name: ar
   Instruction: an LSHIFT 15
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['an', '15']
   Parents: ['an']
+  Value: -1
 }
 
 {
   Name: fn
   Instruction: fj LSHIFT 15
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['fj', '15']
   Parents: ['fj']
+  Value: -1
 }
 
 {
   Name: fj
   Instruction: 1 AND fi
-  InstructionType: R_PARENT
+  Instruction_type: R_PARENT
   Operation: AND
+  Operands: ['1', 'fi']
   Parents: ['fi']
+  Value: -1
 }
 
 {
   Name: hx
   Instruction: he RSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['he', '1']
   Parents: ['he']
+  Value: -1
 }
 
 {
   Name: lg
   Instruction: lf RSHIFT 2
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['lf', '2']
   Parents: ['lf']
+  Value: -1
 }
 
 {
   Name: kj
   Instruction: kf LSHIFT 15
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['kf', '15']
   Parents: ['kf']
+  Value: -1
 }
 
 {
   Name: eh
   Instruction: dz AND ef
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['dz', 'ef']
   Parents: ['dz', 'ef']
+  Value: -1
 }
 
 {
   Name: id
   Instruction: ib OR ic
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['ib', 'ic']
   Parents: ['ib', 'ic']
+  Value: -1
 }
 
 {
   Name: li
   Instruction: lf RSHIFT 5
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['lf', '5']
   Parents: ['lf']
+  Value: -1
 }
 
 {
   Name: br
   Instruction: bp OR bq
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['bp', 'bq']
   Parents: ['bp', 'bq']
+  Value: -1
 }
 
 {
   Name: gt
   Instruction: NOT gs
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['gs']
   Parents: ['gs']
+  Value: -1
 }
 
 {
   Name: gh
   Instruction: fo RSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['fo', '1']
   Parents: ['fo']
+  Value: -1
 }
 
 {
   Name: cc
   Instruction: bz AND cb
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['bz', 'cb']
   Parents: ['bz', 'cb']
+  Value: -1
 }
 
 {
   Name: ec
   Instruction: ea OR eb
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['ea', 'eb']
   Parents: ['ea', 'eb']
+  Value: -1
 }
 
 {
   Name: ls
   Instruction: lf AND lq
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['lf', 'lq']
   Parents: ['lf', 'lq']
+  Value: -1
 }
 
 {
   Name: m
   Instruction: NOT l
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['l']
   Parents: ['l']
+  Value: -1
 }
 
 {
   Name: ib
   Instruction: hz RSHIFT 3
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['hz', '3']
   Parents: ['hz']
+  Value: -1
 }
 
 {
   Name: dj
   Instruction: NOT di
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['di']
   Parents: ['di']
+  Value: -1
 }
 
 {
   Name: ll
   Instruction: NOT lk
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['lk']
   Parents: ['lk']
+  Value: -1
 }
 
 {
   Name: jr
   Instruction: jp RSHIFT 3
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['jp', '3']
   Parents: ['jp']
+  Value: -1
 }
 
 {
   Name: js
   Instruction: jp RSHIFT 5
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['jp', '5']
   Parents: ['jp']
+  Value: -1
 }
 
 {
   Name: bg
   Instruction: NOT bf
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['bf']
   Parents: ['bf']
+  Value: -1
 }
 
 {
   Name: w
   Instruction: s LSHIFT 15
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['s', '15']
   Parents: ['s']
+  Value: -1
 }
 
 {
   Name: fk
   Instruction: eq LSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['eq', '1']
   Parents: ['eq']
+  Value: -1
 }
 
 {
   Name: jm
   Instruction: jl OR jk
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['jl', 'jk']
   Parents: ['jl', 'jk']
+  Value: -1
 }
 
 {
   Name: im
   Instruction: hz AND ik
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['hz', 'ik']
   Parents: ['hz', 'ik']
+  Value: -1
 }
 
 {
   Name: eg
   Instruction: dz OR ef
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['dz', 'ef']
   Parents: ['dz', 'ef']
+  Value: -1
 }
 
 {
   Name: gz
   Instruction: 1 AND gy
-  InstructionType: R_PARENT
+  Instruction_type: R_PARENT
   Operation: AND
+  Operands: ['1', 'gy']
   Parents: ['gy']
+  Value: -1
 }
 
 {
   Name: le
   Instruction: la LSHIFT 15
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['la', '15']
   Parents: ['la']
+  Value: -1
 }
 
 {
   Name: bu
   Instruction: br AND bt
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['br', 'bt']
   Parents: ['br', 'bt']
+  Value: -1
 }
 
 {
   Name: co
   Instruction: NOT cn
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['cn']
   Parents: ['cn']
+  Value: -1
 }
 
 {
   Name: x
   Instruction: v OR w
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['v', 'w']
   Parents: ['v', 'w']
+  Value: -1
 }
 
 {
   Name: k
   Instruction: d OR j
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['d', 'j']
   Parents: ['d', 'j']
+  Value: -1
 }
 
 {
   Name: ge
   Instruction: 1 AND gd
-  InstructionType: R_PARENT
+  Instruction_type: R_PARENT
   Operation: AND
+  Operands: ['1', 'gd']
   Parents: ['gd']
+  Value: -1
 }
 
 {
   Name: ih
   Instruction: ia OR ig
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['ia', 'ig']
   Parents: ['ia', 'ig']
+  Value: -1
 }
 
 {
   Name: gp
   Instruction: NOT go
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['go']
   Parents: ['go']
+  Value: -1
 }
 
 {
   Name: ee
   Instruction: NOT ed
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['ed']
   Parents: ['ed']
+  Value: -1
 }
 
 {
   Name: jy
   Instruction: jq AND jw
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['jq', 'jw']
   Parents: ['jq', 'jw']
+  Value: -1
 }
 
 {
   Name: ff
   Instruction: et OR fe
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['et', 'fe']
   Parents: ['et', 'fe']
+  Value: -1
 }
 
 {
   Name: az
   Instruction: aw AND ay
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['aw', 'ay']
   Parents: ['aw', 'ay']
+  Value: -1
 }
 
 {
   Name: fi
   Instruction: ff AND fh
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['ff', 'fh']
   Parents: ['ff', 'fh']
+  Value: -1
 }
 
 {
   Name: jl
   Instruction: ir LSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['ir', '1']
   Parents: ['ir']
+  Value: -1
 }
 
 {
   Name: ha
   Instruction: gg LSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['gg', '1']
   Parents: ['gg']
+  Value: -1
 }
 
 {
   Name: y
   Instruction: x RSHIFT 2
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['x', '2']
   Parents: ['x']
+  Value: -1
 }
 
 {
   Name: dd
   Instruction: db OR dc
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['db', 'dc']
   Parents: ['db', 'dc']
+  Value: -1
 }
 
 {
   Name: bn
   Instruction: bl OR bm
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['bl', 'bm']
   Parents: ['bl', 'bm']
+  Value: -1
 }
 
 {
   Name: ie
   Instruction: ib AND ic
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['ib', 'ic']
   Parents: ['ib', 'ic']
+  Value: -1
 }
 
 {
   Name: z
   Instruction: x RSHIFT 3
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['x', '3']
   Parents: ['x']
+  Value: -1
 }
 
 {
   Name: lk
   Instruction: lh AND li
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['lh', 'li']
   Parents: ['lh', 'li']
+  Value: -1
 }
 
 {
   Name: cf
   Instruction: ce OR cd
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['ce', 'cd']
   Parents: ['ce', 'cd']
+  Value: -1
 }
 
 {
   Name: bc
   Instruction: NOT bb
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['bb']
   Parents: ['bb']
+  Value: -1
 }
 
 {
   Name: hl
   Instruction: hi AND hk
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['hi', 'hk']
   Parents: ['hi', 'hk']
+  Value: -1
 }
 
 {
   Name: gc
   Instruction: NOT gb
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['gb']
   Parents: ['gb']
+  Value: -1
 }
 
 {
   Name: s
   Instruction: 1 AND r
-  InstructionType: R_PARENT
+  Instruction_type: R_PARENT
   Operation: AND
+  Operands: ['1', 'r']
   Parents: ['r']
+  Value: -1
 }
 
 {
   Name: fz
   Instruction: fw AND fy
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['fw', 'fy']
   Parents: ['fw', 'fy']
+  Value: -1
 }
 
 {
   Name: fe
   Instruction: fb AND fd
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['fb', 'fd']
   Parents: ['fb', 'fd']
+  Value: -1
 }
 
 {
   Name: eo
   Instruction: 1 AND en
-  InstructionType: R_PARENT
+  Instruction_type: R_PARENT
   Operation: AND
+  Operands: ['1', 'en']
   Parents: ['en']
+  Value: -1
 }
 
 {
   Name: ab
   Instruction: z OR aa
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['z', 'aa']
   Parents: ['z', 'aa']
+  Value: -1
 }
 
 {
   Name: bm
   Instruction: bi LSHIFT 15
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['bi', '15']
   Parents: ['bi']
+  Value: -1
 }
 
 {
   Name: hi
   Instruction: hg OR hh
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['hg', 'hh']
   Parents: ['hg', 'hh']
+  Value: -1
 }
 
 {
   Name: lb
   Instruction: kh LSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['kh', '1']
   Parents: ['kh']
+  Value: -1
 }
 
 {
   Name: ci
   Instruction: cg OR ch
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['cg', 'ch']
   Parents: ['cg', 'ch']
+  Value: -1
 }
 
 {
   Name: la
   Instruction: 1 AND kz
-  InstructionType: R_PARENT
+  Instruction_type: R_PARENT
   Operation: AND
+  Operands: ['1', 'kz']
   Parents: ['kz']
+  Value: -1
 }
 
 {
   Name: gg
   Instruction: gf OR ge
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['gf', 'ge']
   Parents: ['gf', 'ge']
+  Value: -1
 }
 
 {
   Name: gk
   Instruction: gj RSHIFT 2
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['gj', '2']
   Parents: ['gj']
+  Value: -1
 }
 
 {
   Name: de
   Instruction: dd RSHIFT 2
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['dd', '2']
   Parents: ['dd']
+  Value: -1
 }
 
 {
   Name: lt
   Instruction: NOT ls
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['ls']
   Parents: ['ls']
+  Value: -1
 }
 
 {
   Name: lj
   Instruction: lh OR li
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['lh', 'li']
   Parents: ['lh', 'li']
+  Value: -1
 }
 
 {
   Name: jt
   Instruction: jr OR js
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['jr', 'js']
   Parents: ['jr', 'js']
+  Value: -1
 }
 
 {
   Name: ax
   Instruction: au AND av
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['au', 'av']
   Parents: ['au', 'av']
+  Value: -1
 }
 
 {
   Name: c
   Instruction: 0
-  InstructionType: DIRECT_NUMBER
+  Instruction_type: DIRECT_NUMBER
   Operation: NONE
+  Operands: ['none']
   Parents: ['none']
+  Value: -1
 }
 
 {
   Name: hr
   Instruction: he AND hp
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['he', 'hp']
   Parents: ['he', 'hp']
+  Value: -1
 }
 
 {
   Name: ig
   Instruction: id AND if
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['id', 'if']
   Parents: ['id', 'if']
+  Value: -1
 }
 
 {
   Name: ew
   Instruction: et RSHIFT 5
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['et', '5']
   Parents: ['et']
+  Value: -1
 }
 
 {
   Name: bs
   Instruction: bp AND bq
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['bp', 'bq']
   Parents: ['bp', 'bq']
+  Value: -1
 }
 
 {
   Name: h
   Instruction: e AND f
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['e', 'f']
   Parents: ['e', 'f']
+  Value: -1
 }
 
 {
   Name: ma
   Instruction: ly OR lz
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['ly', 'lz']
   Parents: ['ly', 'lz']
+  Value: -1
 }
 
 {
   Name: lv
   Instruction: 1 AND lu
-  InstructionType: R_PARENT
+  Instruction_type: R_PARENT
   Operation: AND
+  Operands: ['1', 'lu']
   Parents: ['lu']
+  Value: -1
 }
 
 {
   Name: je
   Instruction: NOT jd
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['jd']
   Parents: ['jd']
+  Value: -1
 }
 
 {
   Name: hb
   Instruction: ha OR gz
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['ha', 'gz']
   Parents: ['ha', 'gz']
+  Value: -1
 }
 
 {
   Name: er
   Instruction: dy RSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['dy', '1']
   Parents: ['dy']
+  Value: -1
 }
 
 {
   Name: iv
   Instruction: iu RSHIFT 2
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['iu', '2']
   Parents: ['iu']
+  Value: -1
 }
 
 {
   Name: hs
   Instruction: NOT hr
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['hr']
   Parents: ['hr']
+  Value: -1
 }
 
 {
   Name: bl
   Instruction: as RSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['as', '1']
   Parents: ['as']
+  Value: -1
 }
 
 {
   Name: kl
   Instruction: kk RSHIFT 2
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['kk', '2']
   Parents: ['kk']
+  Value: -1
 }
 
 {
   Name: p
   Instruction: b AND n
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['b', 'n']
   Parents: ['b', 'n']
+  Value: -1
 }
 
 {
   Name: lq
   Instruction: ln AND lp
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['ln', 'lp']
   Parents: ['ln', 'lp']
+  Value: -1
 }
 
 {
   Name: cr
   Instruction: cj AND cp
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['cj', 'cp']
   Parents: ['cj', 'cp']
+  Value: -1
 }
 
 {
   Name: do
   Instruction: dl AND dn
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['dl', 'dn']
   Parents: ['dl', 'dn']
+  Value: -1
 }
 
 {
   Name: cj
   Instruction: ci RSHIFT 2
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['ci', '2']
   Parents: ['ci']
+  Value: -1
 }
 
 {
   Name: be
   Instruction: as OR bd
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['as', 'bd']
   Parents: ['as', 'bd']
+  Value: -1
 }
 
 {
   Name: gi
   Instruction: ge LSHIFT 15
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['ge', '15']
   Parents: ['ge']
+  Value: -1
 }
 
 {
   Name: ic
   Instruction: hz RSHIFT 5
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['hz', '5']
   Parents: ['hz']
+  Value: -1
 }
 
 {
   Name: ep
   Instruction: dv LSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['dv', '1']
   Parents: ['dv']
+  Value: -1
 }
 
 {
   Name: ks
   Instruction: kl OR kr
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['kl', 'kr']
   Parents: ['kl', 'kr']
+  Value: -1
 }
 
 {
   Name: gv
   Instruction: gj OR gu
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['gj', 'gu']
   Parents: ['gj', 'gu']
+  Value: -1
 }
 
 {
   Name: hh
   Instruction: he RSHIFT 5
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['he', '5']
   Parents: ['he']
+  Value: -1
 }
 
 {
   Name: fh
   Instruction: NOT fg
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['fg']
   Parents: ['fg']
+  Value: -1
 }
 
 {
   Name: hj
   Instruction: hg AND hh
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['hg', 'hh']
   Parents: ['hg', 'hh']
+  Value: -1
 }
 
 {
   Name: o
   Instruction: b OR n
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['b', 'n']
   Parents: ['b', 'n']
+  Value: -1
 }
 
 {
   Name: jo
   Instruction: jk LSHIFT 15
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['jk', '15']
   Parents: ['jk']
+  Value: -1
 }
 
 {
   Name: hd
   Instruction: gz LSHIFT 15
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['gz', '15']
   Parents: ['gz']
+  Value: -1
 }
 
 {
   Name: dc
   Instruction: cy LSHIFT 15
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['cy', '15']
   Parents: ['cy']
+  Value: -1
 }
 
 {
   Name: kn
   Instruction: kk RSHIFT 5
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['kk', '5']
   Parents: ['kk']
+  Value: -1
 }
 
 {
   Name: ck
   Instruction: ci RSHIFT 3
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['ci', '3']
   Parents: ['ci']
+  Value: -1
 }
 
 {
   Name: ba
   Instruction: at OR az
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['at', 'az']
   Parents: ['at', 'az']
+  Value: -1
 }
 
 {
   Name: iw
   Instruction: iu RSHIFT 3
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['iu', '3']
   Parents: ['iu']
+  Value: -1
 }
 
 {
   Name: kr
   Instruction: ko AND kq
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['ko', 'kq']
   Parents: ['ko', 'kq']
+  Value: -1
 }
 
 {
   Name: ei
   Instruction: NOT eh
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['eh']
   Parents: ['eh']
+  Value: -1
 }
 
 {
   Name: as
   Instruction: aq OR ar
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['aq', 'ar']
   Parents: ['aq', 'ar']
+  Value: -1
 }
 
 {
   Name: jb
   Instruction: iy AND ja
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['iy', 'ja']
   Parents: ['iy', 'ja']
+  Value: -1
 }
 
 {
   Name: df
   Instruction: dd RSHIFT 3
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['dd', '3']
   Parents: ['dd']
+  Value: -1
 }
 
 {
   Name: bp
   Instruction: bn RSHIFT 3
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['bn', '3']
   Parents: ['bn']
+  Value: -1
 }
 
 {
   Name: cd
   Instruction: 1 AND cc
-  InstructionType: R_PARENT
+  Instruction_type: R_PARENT
   Operation: AND
+  Operands: ['1', 'cc']
   Parents: ['cc']
+  Value: -1
 }
 
 {
   Name: bb
   Instruction: at AND az
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['at', 'az']
   Parents: ['at', 'az']
+  Value: -1
 }
 
 {
   Name: aj
   Instruction: x OR ai
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['x', 'ai']
   Parents: ['x', 'ai']
+  Value: -1
 }
 
 {
   Name: kx
   Instruction: kk AND kv
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['kk', 'kv']
   Parents: ['kk', 'kv']
+  Value: -1
 }
 
 {
   Name: ap
   Instruction: ao OR an
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['ao', 'an']
   Parents: ['ao', 'an']
+  Value: -1
 }
 
 {
   Name: ea
   Instruction: dy RSHIFT 3
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['dy', '3']
   Parents: ['dy']
+  Value: -1
 }
 
 {
   Name: aq
   Instruction: x RSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['x', '1']
   Parents: ['x']
+  Value: -1
 }
 
 {
   Name: fc
   Instruction: eu AND fa
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['eu', 'fa']
   Parents: ['eu', 'fa']
+  Value: -1
 }
 
 {
   Name: kt
   Instruction: kl AND kr
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['kl', 'kr']
   Parents: ['kl', 'kr']
+  Value: -1
 }
 
 {
   Name: ii
   Instruction: ia AND ig
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['ia', 'ig']
   Parents: ['ia', 'ig']
+  Value: -1
 }
 
 {
   Name: di
   Instruction: df AND dg
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['df', 'dg']
   Parents: ['df', 'dg']
+  Value: -1
 }
 
 {
   Name: fy
   Instruction: NOT fx
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['fx']
   Parents: ['fx']
+  Value: -1
 }
 
 {
   Name: n
   Instruction: k AND m
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['k', 'm']
   Parents: ['k', 'm']
+  Value: -1
 }
 
 {
   Name: bq
   Instruction: bn RSHIFT 5
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['bn', '5']
   Parents: ['bn']
+  Value: -1
 }
 
 {
   Name: kp
   Instruction: km AND kn
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['km', 'kn']
   Parents: ['km', 'kn']
+  Value: -1
 }
 
 {
   Name: dx
   Instruction: dt LSHIFT 15
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['dt', '15']
   Parents: ['dt']
+  Value: -1
 }
 
 {
   Name: ia
   Instruction: hz RSHIFT 2
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['hz', '2']
   Parents: ['hz']
+  Value: -1
 }
 
 {
   Name: am
   Instruction: aj AND al
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['aj', 'al']
   Parents: ['aj', 'al']
+  Value: -1
 }
 
 {
   Name: ch
   Instruction: cd LSHIFT 15
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['cd', '15']
   Parents: ['cd']
+  Value: -1
 }
 
 {
   Name: he
   Instruction: hc OR hd
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['hc', 'hd']
   Parents: ['hc', 'hd']
+  Value: -1
 }
 
 {
   Name: hg
   Instruction: he RSHIFT 3
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['he', '3']
   Parents: ['he']
+  Value: -1
 }
 
 {
   Name: bz
   Instruction: bn OR by
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['bn', 'by']
   Parents: ['bn', 'by']
+  Value: -1
 }
 
 {
   Name: ku
   Instruction: NOT kt
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['kt']
   Parents: ['kt']
+  Value: -1
 }
 
 {
   Name: ac
   Instruction: z AND aa
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['z', 'aa']
   Parents: ['z', 'aa']
+  Value: -1
 }
 
 {
   Name: al
   Instruction: NOT ak
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['ak']
   Parents: ['ak']
+  Value: -1
 }
 
 {
   Name: cx
   Instruction: cu AND cw
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['cu', 'cw']
   Parents: ['cu', 'cw']
+  Value: -1
 }
 
 {
   Name: if
   Instruction: NOT ie
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['ie']
   Parents: ['ie']
+  Value: -1
 }
 
 {
   Name: dz
   Instruction: dy RSHIFT 2
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['dy', '2']
   Parents: ['dy']
+  Value: -1
 }
 
 {
   Name: it
   Instruction: ip LSHIFT 15
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['ip', '15']
   Parents: ['ip']
+  Value: -1
 }
 
 {
   Name: dl
   Instruction: de OR dk
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['de', 'dk']
   Parents: ['de', 'dk']
+  Value: -1
 }
 
 {
   Name: aw
   Instruction: au OR av
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['au', 'av']
   Parents: ['au', 'av']
+  Value: -1
 }
 
 {
   Name: jj
   Instruction: jg AND ji
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['jg', 'ji']
   Parents: ['jg', 'ji']
+  Value: -1
 }
 
 {
   Name: cv
   Instruction: ci AND ct
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['ci', 'ct']
   Parents: ['ci', 'ct']
+  Value: -1
 }
 
 {
   Name: eb
   Instruction: dy RSHIFT 5
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['dy', '5']
   Parents: ['dy']
+  Value: -1
 }
 
 {
   Name: hz
   Instruction: hx OR hy
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['hx', 'hy']
   Parents: ['hx', 'hy']
+  Value: -1
 }
 
 {
   Name: fb
   Instruction: eu OR fa
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['eu', 'fa']
   Parents: ['eu', 'fa']
+  Value: -1
 }
 
 {
   Name: gl
   Instruction: gj RSHIFT 3
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['gj', '3']
   Parents: ['gj']
+  Value: -1
 }
 
 {
   Name: gb
   Instruction: fo AND fz
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['fo', 'fz']
   Parents: ['fo', 'fz']
+  Value: -1
 }
 
 {
   Name: jk
   Instruction: 1 AND jj
-  InstructionType: R_PARENT
+  Instruction_type: R_PARENT
   Operation: AND
+  Operands: ['1', 'jj']
   Parents: ['jj']
+  Value: -1
 }
 
 {
   Name: kb
   Instruction: jp OR ka
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['jp', 'ka']
   Parents: ['jp', 'ka']
+  Value: -1
 }
 
 {
   Name: dm
   Instruction: de AND dk
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['de', 'dk']
   Parents: ['de', 'dk']
+  Value: -1
 }
 
 {
   Name: fa
   Instruction: ex AND ez
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['ex', 'ez']
   Parents: ['ex', 'ez']
+  Value: -1
 }
 
 {
   Name: dh
   Instruction: df OR dg
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['df', 'dg']
   Parents: ['df', 'dg']
+  Value: -1
 }
 
 {
   Name: jc
   Instruction: iv OR jb
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['iv', 'jb']
   Parents: ['iv', 'jb']
+  Value: -1
 }
 
 {
   Name: aa
   Instruction: x RSHIFT 5
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['x', '5']
   Parents: ['x']
+  Value: -1
 }
 
 {
   Name: hk
   Instruction: NOT hj
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['hj']
   Parents: ['hj']
+  Value: -1
 }
 
 {
   Name: in
   Instruction: NOT im
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['im']
   Parents: ['im']
+  Value: -1
 }
 
 {
   Name: gf
   Instruction: fl LSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['fl', '1']
   Parents: ['fl']
+  Value: -1
 }
 
 {
   Name: hy
   Instruction: hu LSHIFT 15
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['hu', '15']
   Parents: ['hu']
+  Value: -1
 }
 
 {
   Name: ir
   Instruction: iq OR ip
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['iq', 'ip']
   Parents: ['iq', 'ip']
+  Value: -1
 }
 
 {
   Name: ix
   Instruction: iu RSHIFT 5
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['iu', '5']
   Parents: ['iu']
+  Value: -1
 }
 
 {
   Name: fd
   Instruction: NOT fc
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['fc']
   Parents: ['fc']
+  Value: -1
 }
 
 {
   Name: em
   Instruction: NOT el
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['el']
   Parents: ['el']
+  Value: -1
 }
 
 {
   Name: cm
   Instruction: ck OR cl
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['ck', 'cl']
   Parents: ['ck', 'cl']
+  Value: -1
 }
 
 {
   Name: ev
   Instruction: et RSHIFT 3
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['et', '3']
   Parents: ['et']
+  Value: -1
 }
 
 {
   Name: iq
   Instruction: hw LSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['hw', '1']
   Parents: ['hw']
+  Value: -1
 }
 
 {
   Name: cl
   Instruction: ci RSHIFT 5
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['ci', '5']
   Parents: ['ci']
+  Value: -1
 }
 
 {
   Name: jd
   Instruction: iv AND jb
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['iv', 'jb']
   Parents: ['iv', 'jb']
+  Value: -1
 }
 
 {
   Name: dg
   Instruction: dd RSHIFT 5
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['dd', '5']
   Parents: ['dd']
+  Value: -1
 }
 
 {
   Name: at
   Instruction: as RSHIFT 2
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['as', '2']
   Parents: ['as']
+  Value: -1
 }
 
 {
   Name: jz
   Instruction: NOT jy
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['jy']
   Parents: ['jy']
+  Value: -1
 }
 
 {
   Name: ai
   Instruction: af AND ah
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['af', 'ah']
   Parents: ['af', 'ah']
+  Value: -1
 }
 
 {
   Name: dt
   Instruction: 1 AND ds
-  InstructionType: R_PARENT
+  Instruction_type: R_PARENT
   Operation: AND
+  Operands: ['1', 'ds']
   Parents: ['ds']
+  Value: -1
 }
 
 {
   Name: ka
   Instruction: jx AND jz
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['jx', 'jz']
   Parents: ['jx', 'jz']
+  Value: -1
 }
 
 {
   Name: du
   Instruction: da LSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['da', '1']
   Parents: ['da']
+  Value: -1
 }
 
 {
   Name: fv
   Instruction: fs AND fu
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['fs', 'fu']
   Parents: ['fs', 'fu']
+  Value: -1
 }
 
 {
   Name: ki
   Instruction: jp RSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['jp', '1']
   Parents: ['jp']
+  Value: -1
 }
 
 {
   Name: iz
   Instruction: iw AND ix
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['iw', 'ix']
   Parents: ['iw', 'ix']
+  Value: -1
 }
 
 {
   Name: iy
   Instruction: iw OR ix
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['iw', 'ix']
   Parents: ['iw', 'ix']
+  Value: -1
 }
 
 {
   Name: es
   Instruction: eo LSHIFT 15
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['eo', '15']
   Parents: ['eo']
+  Value: -1
 }
 
 {
   Name: ey
   Instruction: ev AND ew
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['ev', 'ew']
   Parents: ['ev', 'ew']
+  Value: -1
 }
 
 {
   Name: bd
   Instruction: ba AND bc
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['ba', 'bc']
   Parents: ['ba', 'bc']
+  Value: -1
 }
 
 {
   Name: fx
   Instruction: fp AND fv
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['fp', 'fv']
   Parents: ['fp', 'fv']
+  Value: -1
 }
 
 {
   Name: jf
   Instruction: jc AND je
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['jc', 'je']
   Parents: ['jc', 'je']
+  Value: -1
 }
 
 {
   Name: eu
   Instruction: et RSHIFT 2
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['et', '2']
   Parents: ['et']
+  Value: -1
 }
 
 {
   Name: kh
   Instruction: kg OR kf
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['kg', 'kf']
   Parents: ['kg', 'kf']
+  Value: -1
 }
 
 {
   Name: jg
   Instruction: iu OR jf
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['iu', 'jf']
   Parents: ['iu', 'jf']
+  Value: -1
 }
 
 {
   Name: et
   Instruction: er OR es
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['er', 'es']
   Parents: ['er', 'es']
+  Value: -1
 }
 
 {
   Name: fp
   Instruction: fo RSHIFT 2
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['fo', '2']
   Parents: ['fo']
+  Value: -1
 }
 
 {
   Name: cb
   Instruction: NOT ca
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['ca']
   Parents: ['ca']
+  Value: -1
 }
 
 {
   Name: by
   Instruction: bv AND bx
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['bv', 'bx']
   Parents: ['bv', 'bx']
+  Value: -1
 }
 
 {
   Name: ao
   Instruction: u LSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['u', '1']
   Parents: ['u']
+  Value: -1
 }
 
 {
   Name: cp
   Instruction: cm AND co
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['cm', 'co']
   Parents: ['cm', 'co']
+  Value: -1
 }
 
 {
   Name: af
   Instruction: y OR ae
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['y', 'ae']
   Parents: ['y', 'ae']
+  Value: -1
 }
 
 {
   Name: ca
   Instruction: bn AND by
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['bn', 'by']
   Parents: ['bn', 'by']
+  Value: -1
 }
 
 {
   Name: kf
   Instruction: 1 AND ke
-  InstructionType: R_PARENT
+  Instruction_type: R_PARENT
   Operation: AND
+  Operands: ['1', 'ke']
   Parents: ['ke']
+  Value: -1
 }
 
 {
   Name: jw
   Instruction: jt AND jv
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['jt', 'jv']
   Parents: ['jt', 'jv']
+  Value: -1
 }
 
 {
   Name: fs
   Instruction: fq OR fr
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['fq', 'fr']
   Parents: ['fq', 'fr']
+  Value: -1
 }
 
 {
   Name: el
   Instruction: dy AND ej
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['dy', 'ej']
   Parents: ['dy', 'ej']
+  Value: -1
 }
 
 {
   Name: kd
   Instruction: NOT kc
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['kc']
   Parents: ['kc']
+  Value: -1
 }
 
 {
   Name: ex
   Instruction: ev OR ew
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['ev', 'ew']
   Parents: ['ev', 'ew']
+  Value: -1
 }
 
 {
   Name: dp
   Instruction: dd OR do
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['dd', 'do']
   Parents: ['dd', 'do']
+  Value: -1
 }
 
 {
   Name: cw
   Instruction: NOT cv
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['cv']
   Parents: ['cv']
+  Value: -1
 }
 
 {
   Name: gu
   Instruction: gr AND gt
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['gr', 'gt']
   Parents: ['gr', 'gt']
+  Value: -1
 }
 
 {
   Name: dw
   Instruction: dd RSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['dd', '1']
   Parents: ['dd']
+  Value: -1
 }
 
 {
   Name: gx
   Instruction: NOT gw
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['gw']
   Parents: ['gw']
+  Value: -1
 }
 
 {
   Name: ja
   Instruction: NOT iz
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['iz']
   Parents: ['iz']
+  Value: -1
 }
 
 {
   Name: ip
   Instruction: 1 AND io
-  InstructionType: R_PARENT
+  Instruction_type: R_PARENT
   Operation: AND
+  Operands: ['1', 'io']
   Parents: ['io']
+  Value: -1
 }
 
 {
   Name: ah
   Instruction: NOT ag
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['ag']
   Parents: ['ag']
+  Value: -1
 }
 
 {
   Name: f
   Instruction: b RSHIFT 5
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['b', '5']
   Parents: ['b']
+  Value: -1
 }
 
 {
   Name: cs
   Instruction: NOT cr
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['cr']
   Parents: ['cr']
+  Value: -1
 }
 
 {
   Name: ke
   Instruction: kb AND kd
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['kb', 'kd']
   Parents: ['kb', 'kd']
+  Value: -1
 }
 
 {
   Name: ju
   Instruction: jr AND js
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['jr', 'js']
   Parents: ['jr', 'js']
+  Value: -1
 }
 
 {
   Name: ct
   Instruction: cq AND cs
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['cq', 'cs']
   Parents: ['cq', 'cs']
+  Value: -1
 }
 
 {
   Name: io
   Instruction: il AND in
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['il', 'in']
   Parents: ['il', 'in']
+  Value: -1
 }
 
 {
   Name: jv
   Instruction: NOT ju
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['ju']
   Parents: ['ju']
+  Value: -1
 }
 
 {
   Name: dv
   Instruction: du OR dt
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['du', 'dt']
   Parents: ['du', 'dt']
+  Value: -1
 }
 
 {
   Name: dq
   Instruction: dd AND do
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['dd', 'do']
   Parents: ['dd', 'do']
+  Value: -1
 }
 
 {
   Name: d
   Instruction: b RSHIFT 2
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['b', '2']
   Parents: ['b']
+  Value: -1
 }
 
 {
   Name: kg
   Instruction: jm LSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: LSHIFT
+  Operands: ['jm', '1']
   Parents: ['jm']
+  Value: -1
 }
 
 {
   Name: dr
   Instruction: NOT dq
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['dq']
   Parents: ['dq']
+  Value: -1
 }
 
 {
   Name: bv
   Instruction: bo OR bu
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['bo', 'bu']
   Parents: ['bo', 'bu']
+  Value: -1
 }
 
 {
   Name: gr
   Instruction: gk OR gq
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['gk', 'gq']
   Parents: ['gk', 'gq']
+  Value: -1
 }
 
 {
   Name: hq
   Instruction: he OR hp
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['he', 'hp']
   Parents: ['he', 'hp']
+  Value: -1
 }
 
 {
   Name: i
   Instruction: NOT h
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['h']
   Parents: ['h']
+  Value: -1
 }
 
 {
   Name: hn
   Instruction: hf AND hl
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['hf', 'hl']
   Parents: ['hf', 'hl']
+  Value: -1
 }
 
 {
   Name: gy
   Instruction: gv AND gx
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['gv', 'gx']
   Parents: ['gv', 'gx']
+  Value: -1
 }
 
 {
   Name: ak
   Instruction: x AND ai
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['x', 'ai']
   Parents: ['x', 'ai']
+  Value: -1
 }
 
 {
   Name: bw
   Instruction: bo AND bu
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['bo', 'bu']
   Parents: ['bo', 'bu']
+  Value: -1
 }
 
 {
   Name: ht
   Instruction: hq AND hs
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['hq', 'hs']
   Parents: ['hq', 'hs']
+  Value: -1
 }
 
 {
   Name: is
   Instruction: hz RSHIFT 1
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['hz', '1']
   Parents: ['hz']
+  Value: -1
 }
 
 {
   Name: gm
   Instruction: gj RSHIFT 5
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['gj', '5']
   Parents: ['gj']
+  Value: -1
 }
 
 {
   Name: j
   Instruction: g AND i
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['g', 'i']
   Parents: ['g', 'i']
+  Value: -1
 }
 
 {
   Name: gs
   Instruction: gk AND gq
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['gk', 'gq']
   Parents: ['gk', 'gq']
+  Value: -1
 }
 
 {
   Name: ds
   Instruction: dp AND dr
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['dp', 'dr']
   Parents: ['dp', 'dr']
+  Value: -1
 }
 
 {
   Name: e
   Instruction: b RSHIFT 3
-  InstructionType: L_PARENT
+  Instruction_type: L_PARENT
   Operation: RSHIFT
+  Operands: ['b', '3']
   Parents: ['b']
+  Value: -1
 }
 
 {
   Name: go
   Instruction: gl AND gm
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['gl', 'gm']
   Parents: ['gl', 'gm']
+  Value: -1
 }
 
 {
   Name: gn
   Instruction: gl OR gm
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['gl', 'gm']
   Parents: ['gl', 'gm']
+  Value: -1
 }
 
 {
   Name: ag
   Instruction: y AND ae
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['y', 'ae']
   Parents: ['y', 'ae']
+  Value: -1
 }
 
 {
   Name: hw
   Instruction: hv OR hu
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: OR
+  Operands: ['hv', 'hu']
   Parents: ['hv', 'hu']
+  Value: -1
 }
 
 {
   Name: b
   Instruction: 1674
-  InstructionType: DIRECT_NUMBER
+  Instruction_type: DIRECT_NUMBER
   Operation: NONE
+  Operands: ['none']
   Parents: ['none']
+  Value: -1
 }
 
 {
   Name: ae
   Instruction: ab AND ad
-  InstructionType: BINARY
+  Instruction_type: BINARY
   Operation: AND
+  Operands: ['ab', 'ad']
   Parents: ['ab', 'ad']
+  Value: -1
 }
 
 {
   Name: ad
   Instruction: NOT ac
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['ac']
   Parents: ['ac']
+  Value: -1
 }
 
 {
   Name: hu
   Instruction: 1 AND ht
-  InstructionType: R_PARENT
+  Instruction_type: R_PARENT
   Operation: AND
+  Operands: ['1', 'ht']
   Parents: ['ht']
+  Value: -1
 }
 
 {
   Name: ho
   Instruction: NOT hn
-  InstructionType: UNARY
+  Instruction_type: UNARY
   Operation: NOT
+  Operands: ['hn']
   Parents: ['hn']
+  Value: -1
 }
 

@@ -1,16 +1,18 @@
 import parsing as p
 from node import Node, find_node_by_name
+import traversals as t
 
 
 def main() -> None:
     nodes: list[Node] = []
-    lines: list[str] = p.read_file("inputs.txt")
+    values: dict[str, int] = {}
 
+    lines: list[str] = p.read_file("inputs.txt")
     for line in lines:
         nodes.append(Node(line))
 
-    for n in nodes:
-        print(n)
+    for node in nodes:
+        print(node)
 
 
 main()

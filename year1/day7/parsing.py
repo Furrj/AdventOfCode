@@ -31,21 +31,20 @@ def get_name(line: str) -> str:
     return name.strip()
 
 
-def get_instruction_type(instruction: str) -> InstructionTypes:
-    splitInstructions: list = instruction.split(" ")
-    if len(splitInstructions) == 1:
-        if splitInstructions[0].isnumeric():
+def get_instruction_type(instruction_list: list[str]) -> InstructionTypes:
+    if len(instruction_list) == 1:
+        if instruction_list[0].isnumeric():
             return InstructionTypes.DIRECT_NUMBER
         else:
             return InstructionTypes.DIRECT_PARENT
 
-    if len(splitInstructions) == 2:
+    if len(instruction_list) == 2:
         return InstructionTypes.UNARY
 
-    if splitInstructions[0].isnumeric() and splitInstructions[2].isalpha():
+    if instruction_list[0].isnumeric() and instruction_list[2].isalpha():
         return InstructionTypes.R_PARENT
 
-    if splitInstructions[0].isalpha() and splitInstructions[2].isnumeric():
+    if instruction_list[0].isalpha() and instruction_list[2].isnumeric():
         return InstructionTypes.L_PARENT
 
     return InstructionTypes.BINARY
@@ -58,22 +57,40 @@ def get_operation(instruction: str) -> Operations:
     return Operations.NONE
 
 
-def get_parents(instruction: str, instruction_type: InstructionTypes) -> list[str]:
+def get_parents(
+    instruction_list: list[str], instruction_type: InstructionTypes
+) -> list[str]:
     parents: list[str] = []
-    splitInstructions: list = instruction.split(" ")
 
     if instruction_type == InstructionTypes.DIRECT_NUMBER:
         parents.append("none")
     elif instruction_type == InstructionTypes.DIRECT_PARENT:
-        parents.append(splitInstructions[0])
+        parents.append(instruction_list[0])
     elif instruction_type == InstructionTypes.L_PARENT:
-        parents.append(splitInstructions[0])
+        parents.append(instruction_list[0])
     elif instruction_type == InstructionTypes.R_PARENT:
-        parents.append(splitInstructions[2])
+        parents.append(instruction_list[2])
     elif instruction_type == InstructionTypes.UNARY:
-        parents.append(splitInstructions[1])
+        parents.append(instruction_list[1])
     elif instruction_type == InstructionTypes.BINARY:
-        parents.append(splitInstructions[0])
-        parents.append(splitInstructions[2])
+        parents.append(instruction_list[0])
+        parents.append(instruction_list[2])
 
     return parents
+
+
+def get_operands(
+    instruction_list: list[str], instruction_type: InstructionTypes
+) -> list[str]:
+    operands: list[str] = []
+    if (
+        instruction_type == InstructionTypes.DIRECT_NUMBER
+        or instruction_type == InstructionTypes.DIRECT_PARENT
+    ):
+        operands.append("none")
+    elif instruction_type == InstructionTypes.UNARY:
+        operands.append(instruction_list[1])
+    else:
+        operands.append(instruction_list[0])
+        operands.append(instruction_list[2])
+    return operands
