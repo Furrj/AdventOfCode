@@ -2,3 +2,4 @@
 *.exe
 main
 __pycache__/
+.DS_Store
