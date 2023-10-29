@@ -10,7 +10,7 @@ M: str = "inputs/main.txt"
 
 if __name__ == "__main__":
     arrs: list[Arrangement] = []
-    people: list[str] = []
+    people: list[str] = ["Me"]
 
     for l in read_file(M):
         arrs.append(Arrangement(l))
