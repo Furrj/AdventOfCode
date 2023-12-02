@@ -1,4 +1,14 @@
-from collections import deque
+ENGLISH: dict[str, int] = {
+    "one": 1,
+    "two": 2,
+    "three": 3,
+    "four": 4,
+    "five": 5,
+    "six": 6,
+    "seven": 7,
+    "eight": 8,
+    "nine": 9,
+}
 
 
 def calc(lines: list[str]) -> int:
@@ -11,16 +21,4 @@ def calc(lines: list[str]) -> int:
 
 
 def _get_num(line: str) -> int:
-    res: str = ""
-
-    for c in line:
-        if c.isnumeric():
-            res += c
-            break
-
-    for c in reversed(line):
-        if c.isnumeric():
-            res += c
-            break
-
-    return int(res)
+    matches: 
