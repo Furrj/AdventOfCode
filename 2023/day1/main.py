@@ -1,12 +1,12 @@
 from parsing import read_file
+import func as f
+import re
 
 FILENAME: str = "input.txt"
+TEST: str = "test.txt"
 
-raw_lines = read_file(FILENAME)
-
+raw_lines: list[str] = read_file(FILENAME)
 
 if __name__ == "__main__":
-    a = "adc"
-    b = "fdfdabcdfdf"
-
-    print(b.find(a))
+    all = f.calc(raw_lines)
+    print(all)
